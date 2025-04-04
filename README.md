@@ -85,4 +85,4 @@ Enhancements (Future Scope)
 
 Conclusion
 
-This Page Replacement Simulator helps in understanding how different page replacement algorithms work. Using Flask for backend processing and Tkinter for popups makes it both interactive and easy to use!
+This Page Replacement Simulator helps in understanding how different page replacement algorithms work. Using Flask for backend processing and Tkinter for popups makes it both interactive and easy to use!. The contributers of this project are Prashant,vidhan,and akash.
