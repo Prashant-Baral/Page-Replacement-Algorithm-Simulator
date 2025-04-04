@@ -3,7 +3,7 @@ from flask_cors import CORS
 import logging
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for frontend-backend communication
+CORS(app)  # Enable CORS for frontend-backend communication.
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(message)s")
