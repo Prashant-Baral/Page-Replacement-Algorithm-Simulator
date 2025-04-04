@@ -1,0 +1,125 @@
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    /* Professional blue gradient */
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+    font-family: 'Poppins', sans-serif;
+    color: #e0e0e0;
+    /* Changed to a lighter shade */
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.card {
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: #f0f0f0;
+    /* Changed to a lighter shade */
+}
+
+input,
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    transition: background 0.3s ease;
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+button {
+    background: #00ffcc;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 255, 204, 0.5);
+}
+
+.result-box {
+    background: rgba(0, 255, 204, 0.1);
+    border: 1px solid #00ffcc;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 50px;
+    color: #00cccc;
+    /* Adjusted to a softer teal */
+}
+
+.sidebar {
+    position: fixed;
+    top: 20%;
+    right: 10px;
+    width: 200px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #00ffcc;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    color: #d0d0d0;
+    /* Changed to a lighter shade */
+}
+
+.sidebar h5 {
+    margin-bottom: 10px;
+    color: #00cccc;
+    /* Adjusted to a softer teal */
+    font-weight: bold;
+}
+
+.sidebar p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #e0e0e0;
+    /* Changed to a lighter shade */
+}
+
+h2,
+h4 {
+    text-shadow: none;
+    /* Removed text shadow */
+    color: #00cccc;
+    /* Match the color of "Project by" */
+}
+
+.result-box h4 {
+    color: #46e9e9;
+    /* Match the color of "Project by" */
+}
